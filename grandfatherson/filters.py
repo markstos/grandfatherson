@@ -140,7 +140,7 @@ class Weeks(Filter):
         ``firstweekday`` determines when the week starts. It defaults
         to Saturday.
         """
-        week = cls.mask(now, firstweekday=firstweekday, **options)
+        week = cls.mask(now, firstweekday, **options)
         days = (number - 1) * cls.DAYS_IN_WEEK
         return week - timedelta(days=days)
 
