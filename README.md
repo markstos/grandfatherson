@@ -159,6 +159,11 @@ run the following:
 
     python run-tests.py
 
+See Also
+--------
+
+  * [grandfatherson](https://github.com/RideAmigosCorp/grandfatherson) is a Node.js port of this module
+
 License
 -------
 
